@@ -1,20 +1,39 @@
 {
-  "name": "images_server",
-  "version": "1.0.0",
-  "description": "Serve static content only images",
-  "main": "index.js",
-  "author": "desistemasWEB// Lte.",
-  "license": "MIT",
+  "name": "my-image-app",
+  "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "start": "webpack-dev-server --config webpack.config.js"
-  },
   "dependencies": {
-    "@mui/lab": "^6.0.0-beta.19"
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^13.2.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.0"
   },
-  "devDependencies": {
-    "webpack": "^5.92.1",
-    "webpack-cli": "^3.3.5",
-    "webpack-dev-server": "3.8.2"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
